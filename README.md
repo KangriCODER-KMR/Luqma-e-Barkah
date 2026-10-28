@@ -1,76 +1,84 @@
-# Luqma-e-Barkah (لقمةِ برکت) — Luxury Dining & Rooftop Website
+# Luqma-e-Barkah (لقمةِ برکت)
 
-An award-winning-style restaurant web application replicating the luxury storytelling, opulent aesthetic, and seamless interactive experience of [Qissa Sevenoaks](https://www.qissa.co.uk/), customized for **Luqma-e-Barkah** in Hadipora, Rafiabad, Baramulla, Jammu & Kashmir.
+[![Framework: React 19](https://shields.io)](https://react.dev)
+[![Build Tool: Vite 6](https://shields.io)](https://vite.dev)
+[![Language: TypeScript](https://shields.io)](https://typescriptlang.org)
+[![Styling: Tailwind CSS v4](https://shields.io)](https://tailwindcss.com)
 
----
-
-## 🌟 Highlights & Features (Replicating Qissa.co.uk)
-
-1. **Aesthetic & Visual Storytelling**
-   - **Atmospheric Palette**: Dark obsidian `#0b0a09`, deep charcoal `#141210`, warm gold `#d4af37`, and ambient saffron accents.
-   - **Editorial Typography**: Pairings of `Cinzel`, `Playfair Display`, `Plus Jakarta Sans`, and authentic Arabic calligraphy (`Amiri` / `لقمةِ برکت`).
-   - **The Brand Narrative**: *"A Tale of Luqma & Barkah — A Blessing in Every Bite"*, celebrating authentic Kashmiri hospitality, woodfire slow-cooking, and valley heritage.
-
-2. **North Kashmir's 1st Rooftop Terrace Experience**
-   - Dedicated showcase of open-air dining under the stars of Rafiabad overlooking the mountains along the Baramulla–Handwara National Highway.
-   - Highlighting twilight fairy-light ambiance, heated family enclosures, and live Acacia charcoal grill counters.
-
-3. **Interactive Gastronomic Menu**
-   - Filterable categories: **Wazwan Heritage**, **Highway Charcoal Grills & BBQ**, **Royal Mains & Curries**, **Fast Bites & Indo-Chinese**, **Artisanal Breads**, and **Kashmiri Saffron Kahwa & Mocktails**.
-   - Dietary switches: Pure Veg only, Chef's Signatures, Halal badges, spice meters (mild to fiery), and ingredients breakdown.
-   - Quick "Add to Order" and full dish detail modal.
-
-4. **Live Table Reservation System**
-   - Intuitive booking flow: Date picker, time slot, guest count, seating preference (*Open-Air Rooftop Terrace*, *Private Family Cabin*, or *Grand Indoor Hall*).
-   - Generates reservation code and offers **1-click confirmation dispatch to WhatsApp**.
-
-5. **Takeaway & Highway Pickup Cart Drawer**
-   - Supports 3 modes: **Counter Pickup**, **Highway Car-Halt Pickup** (for travelers passing through Hadipora), and **Local Delivery**.
-   - Real-time calculation of subtotal, packaging, and grand total.
-   - **Direct WhatsApp Order Generator**: Formats the entire order slip neatly and sends it to the restaurant's WhatsApp with one tap.
-
-6. **Private Events & Traditional Feasts Inquiry**
-   - Showcase for birthdays, wedding / Walima feasts, college reunions (GDC Hadipora), and corporate highway gatherings.
-
-7. **Highway Location, Google Maps & Operating Hours**
-   - Integrated live map with exact coordinates: `34.3049919, 74.3798655`.
-   - Direct button linked to the restaurant's [Google Maps location](https://www.google.com/maps/place/Luqma+e+Barkah/@34.3049918,74.3749946,17z/data=!3m1!4b1!4m6!3m5!1s0x38e10500797303b5:0xb940d517bbd421b6!8m2!3d34.3049919!4d74.3798655).
-   - Full schedule of opening hours and direct contact channels.
+An production-ready, luxury frontend web application engineered for **Luqma-e-Barkah** (Hadipora, Rafiabad, Jammu & Kashmir). This platform features an immersive, asset-optimized digital interface showcasing premium culinary hospitality, an interactive reservation pipeline, and a headless transactional checkout flow.
 
 ---
 
-## 🚀 How to Run the Project
+## 🏗️ Architectural Core & Features
 
-Inside the `C:\CSE JOURNEY\Luqma e barkah` directory:
+### 1. Immersive Brand Narrative & Visual System
+- **Cinematic Hero Segment:** Low-latency, container-optimized background video implementation using streaming-ready media assets.
+- **Luxury Aesthetic Spectrum:** Strict design token architecture leveraging obsidian (`#0b0a09`), deep charcoal (`#141210`), and precise metallic gold (`#d4af37`) branding accents.
+- **Editorial Typography Integration:** Fluid type scales driven by *Cinzel*, *Playfair Display*, and *Plus Jakarta Sans*, paired with localized *Amiri* Arabic calligraphy layers.
 
+### 2. High-Performance Gastronomic Engine
+- **State-Driven Menu Architecture:** Instantaneous client-side categorization filtering across Wazwan Heritage, Highway Charcoal Grills, and regional delicacies.
+- **Granular Meta Filtering:** Context-aware data toggles handling strict dietary compliance (Halal, Vegetarian), progressive spice indexes, and dynamic ingredient breakdown modals.
+
+### 3. Structural Operational Pipelines
+- **Rooftop & Hospitality Booking Flow:** Form schema managing reservation parameters across multiple structural dining zones (Open-Air Rooftop, Private Family Cabins, Grand Indoor Hall).
+- **Headless Checkout & Logistical Routing:** Dynamic multi-mode transactional drawer supporting Counter Collection, Local Delivery, and Specialized Highway Car-Halt Pickup profiles.
+- **Direct Dispatch Payload Generation:** Automated serialization of cart contents and order meta-data into clean text formats engineered for direct transmission via instant messaging layers.
+
+---
+
+## 🛠️ Technical Stack & Dependencies
+
+| Layer | Technology | Function |
+| :--- | :--- | :--- |
+| **Core Framework** | React 19 + TypeScript | Component encapsulation, type-safe development, and state lifecycle management. |
+| **Build Pipeline** | Vite 6 | Lightning-fast Hot Module Replacement (HMR) and optimized Tree-Shaking production compiles. |
+| **Style Layer** | Tailwind CSS v4 | High-performance atomic utility architecture, fluid token management, and glassmorphic UI variables. |
+| **Iconography** | Lucide React | Scalable vector graphic asset mapping. |
+
+---
+
+## 📦 Local Workspace Standardization
+
+### System Prerequisites
+Ensure your local environment includes the following runtimes:
+- **Node.js** (v18.x or higher recommended)
+- **npm** (v10.x or higher)
+
+### Installation & Initialization
+1. **Clone the structural source code:**
+   ```bash
+   git clone https://github.com[your-github-username]/[your-repo-name].git
+   ```
+
+2. **Navigate to the workspace root:**
+   ```bash
+   cd [your-repo-name]
+   ```
+
+3. **Install deterministic dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Boot the local development engine:**
+   ```bash
+   npm run dev
+   ```
+   *The application environment initializes dynamically at `http://localhost:3000` (or the nearest available workspace port).*
+
+### Compilation & Optimization
+To compile optimized, production-grade static distribution assets:
 ```bash
-# 1. Start development server
-npm run dev
-
-# 2. Build for production
 npm run build
-
-# 3. Preview production build
-npm run preview
 ```
-
-The app will run locally at `http://localhost:3000`.
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework**: React 19 + TypeScript
-- **Bundler & Dev Server**: Vite 6
-- **Styling**: Tailwind CSS v4 with custom luxury themes & glassmorphism
-- **Icons**: Lucide React + custom SVG branding
-- **Typography**: Google Fonts (Cinzel, Playfair Display, Plus Jakarta Sans, Amiri)
+Target payloads are emitted to the `/dist` directory for zero-downtime edge network hosting.
 
 ---
 
-## 📞 Business Details Configured
+## 📜 Architectural Credits & Provenance
+- UX paradigms, micro-interactions, and storytelling layouts structurally adapted from the design system principles of **Qissa Sevenoaks** (Kent, UK).
+- Geographic coordinates, metadata mapping, and service infrastructure parameters are separated inside abstracted, type-safe data configuration layers.
 
-- **Location**: Near GDC Hadipora, Baramulla–Handwara Highway, Rafiabad, J&K 193301
-- **Coordinates**: `34.3049919, 74.3798655`
-- **Instagram**: [@luqma_e_barkah](https://www.instagram.com/luqma_e_barkah/)
-- **Phone / WhatsApp**: `+91 70068 12345` (can be updated in `src/data/restaurantData.ts`)
+---
+
