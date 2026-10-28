@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="goldSunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#fff8db" />
+      <stop offset="35%" stopColor="#f3cf65" />
+      <stop offset="70%" stopColor="#d4af37" />
+      <stop offset="100%" stopColor="#96771b" />
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#ffeed1" />
+      <stop offset="100%" stopColor="#caa42e" />
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stopColor="#ffe89e" />
+      <stop offset="70%" stopColor="#d4af37" />
+      <stop offset="100%" stopColor="#876815" />
+    </radialGradient>
+  </defs>
+
+  <!-- Dark circular backing for high contrast on light browser tabs -->
+  <circle cx="50" cy="50" r="48" fill="#080a10" stroke="url(#goldSunGrad)" stroke-width="1.5" />
+
+  <!-- Center rings and jewel -->
+  <circle cx="50" cy="50" r="14" stroke="url(#goldSunGrad)" stroke-width="2.5" fill="none" />
+  <circle cx="50" cy="50" r="8.5" fill="url(#centerGlow)" />
+  <circle cx="50" cy="50" r="3.5" fill="#fff7d9" opacity="0.9" />
+
+  <!-- Radiating spoons and spice grain rays -->
+  <g stroke="url(#goldSunGrad)" stroke-linecap="round">
+    <!-- Top & upper rays -->
+    <line x1="50" y1="36" x2="50" y2="8" stroke-width="2" />
+    <ellipse cx="50" cy="8" rx="3.5" ry="5.5" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="60" y1="38" x2="72" y2="15" stroke-width="1.8" />
+    <ellipse cx="72" cy="15" rx="3.2" ry="5" transform="rotate(30 72 15)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="63" y1="44" x2="86" y2="28" stroke-width="1.8" />
+    <ellipse cx="86" cy="28" rx="3.2" ry="5" transform="rotate(60 86 28)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="64" y1="50" x2="92" y2="50" stroke-width="2" />
+    <ellipse cx="92" cy="50" rx="3.5" ry="5.5" transform="rotate(90 92 50)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="63" y1="56" x2="86" y2="72" stroke-width="1.8" />
+    <ellipse cx="86" cy="72" rx="3.2" ry="5" transform="rotate(120 86 72)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="60" y1="62" x2="72" y2="85" stroke-width="1.8" />
+    <ellipse cx="72" cy="85" rx="3.2" ry="5" transform="rotate(150 72 85)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="50" y1="64" x2="50" y2="92" stroke-width="2" />
+    <ellipse cx="50" cy="92" rx="3.5" ry="5.5" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="40" y1="62" x2="28" y2="85" stroke-width="1.8" />
+    <ellipse cx="28" cy="85" rx="3.2" ry="5" transform="rotate(-150 28 85)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="37" y1="56" x2="14" y2="72" stroke-width="1.8" />
+    <ellipse cx="14" cy="72" rx="3.2" ry="5" transform="rotate(-120 14 72)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="36" y1="50" x2="8" y2="50" stroke-width="2" />
+    <ellipse cx="8" cy="50" rx="3.5" ry="5.5" transform="rotate(-90 8 50)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="37" y1="44" x2="14" y2="28" stroke-width="1.8" />
+    <ellipse cx="14" cy="28" rx="3.2" ry="5" transform="rotate(-60 14 28)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <line x1="40" y1="38" x2="28" y2="15" stroke-width="1.8" />
+    <ellipse cx="28" cy="15" rx="3.2" ry="5" transform="rotate(-30 28 15)" fill="url(#goldGlow)" stroke-width="1" />
+
+    <!-- Intermediate smaller buds -->
+    <circle cx="63" cy="25" r="2.2" fill="url(#goldSunGrad)" />
+    <circle cx="78" cy="40" r="2.2" fill="url(#goldSunGrad)" />
+    <circle cx="78" cy="60" r="2.2" fill="url(#goldSunGrad)" />
+    <circle cx="63" cy="75" r="2.2" fill="url(#goldSunGrad)" />
+    <circle cx="37" cy="75" r="2.2" fill="url(#goldSunGrad)" />
+    <circle cx="22" cy="60" r="2.2" fill="url(#goldSunGrad)" />
+    <circle cx="22" cy="40" r="2.2" fill="url(#goldSunGrad)" />
+    <circle cx="37" cy="25" r="2.2" fill="url(#goldSunGrad)" />
+  </g>
+</svg>
